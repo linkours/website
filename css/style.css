@@ -1,0 +1,5359 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,'Microsoft Yahei','PingFang SC','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif, Arial;
+	font-size: 12px
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-size: 100%
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+ul,div,article,aside,footer,header,hgroup,menu,nav,section {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box
+}
+
+a {
+	text-decoration: none;
+	transition: color 218ms cubic-bezier(0.42, 0, 0.58, 1)
+}
+
+a:hover {
+	text-decoration: none
+}
+
+li {
+	list-style: none
+}
+
+input[type=search] {
+	-webkit-appearance: none
+}
+
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button {
+	display: none
+}
+
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+input,button,select,textarea {
+	border: 0 none;
+	outline: 0 none;
+	font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,'Microsoft Yahei','PingFang SC','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif
+}
+
+address,em,i {
+	font-style: normal
+}
+
+textarea {
+	resize: none
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+
+label {
+	cursor: pointer
+}
+
+::-moz-selection {
+	color: #fff;
+	background: #306eb7
+}
+
+::selection {
+	color: #fff;
+	background: #306eb7
+}
+
+::-moz-selection {
+	color: #fff;
+	background: #306eb7
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 8px;
+	background-color: #306eb7
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #fff
+}
+
+::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #306eb7
+}
+
+.clearfix,.wrap {
+	display: block;
+	zoom: 1
+}
+
+.clearfix:after,.wrap:after {
+	content: "";
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+.auto {
+	height: auto;
+	overflow: hidden
+}
+
+.left {
+	float: left
+}
+
+.right {
+	float: right
+}
+
+input,select,button,textarea {
+	font-family: "微软雅黑",Arial
+}
+
+input[type=submit] {
+	cursor: pointer
+}
+
+.toe,.main-index .content li a,.main-news2 .right-list .con a h3 {
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.imgallscale .img img {
+	width: 100%;
+	height: 100%;
+	transition: 0.5s all linear
+}
+
+.imgallscale:hover img {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2)
+}
+
+.inputfocus input {
+	transition: 0.5s all
+}
+
+.inputfocus input[type=text]:focus {
+	box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset,0 0 8px rgba(156,41,50,0.3)
+}
+
+* {
+	box-sizing: border-box
+}
+
+.wrap {
+	width: 1200px;
+	margin: 0 auto
+}
+
+input {
+	transition: 0.5s
+}
+
+img {
+	max-width: 100%
+}
+
+body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #ffffff;
+	min-width: 1280px;
+	overflow-x: auto
+}
+
+.icon {
+	display: inline-block
+}
+
+.mask {
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	z-index: 999;
+	display: none;
+	display: block;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: -1
+}
+
+.mask.animated {
+	z-index: 9999
+}
+
+.fullscreen {
+	overflow: hidden;
+	min-width: 1200px;
+	width: 100%;
+	position: fixed;
+	right: 0;
+	bottom: 33px;
+	top: 0;
+	left: 0
+}
+
+body {
+	padding-bottom: 33px
+}
+
+#main {
+	margin-left: 80px
+}
+
+.main-content {
+	padding-left: 80px
+}
+
+.main-slide {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin-left: 80px
+}
+
+.main-slide .left-bigimg {
+	width: 50%
+}
+
+.main-slide .left-bigimg ul {
+	transition: 0.5s linear;
+	width: 105%
+}
+
+.main-slide .left-bigimg li {
+	width: 105%;
+	background-size: cover;
+	transition: 0.5s
+}
+
+.main-slide .left-bigimg li:hover {
+	-webkit-transform: translate(-20px, 0);
+	-ms-transform: translate(-20px, 0);
+	transform: translate(-20px, 0)
+}
+
+.main-slide .left-bigimg li.hover {
+	left: -20px;
+	-webkit-animation: wp 15s 0s linear infinite alternate;
+	animation: wp 15s 0s linear infinite alternate
+}
+
+.main-slide ul {
+	display: inline-block
+}
+
+.main-slide .right-texts {
+	width: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: #fff
+}
+
+.main-slide .right-texts ul {
+	transition: 0.8s linear;
+	width: 100%
+}
+
+.main-slide .right-texts li {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: 0.5s
+}
+
+.main-slide .right-texts .texts {
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 10%
+}
+
+.main-slide .right-texts .texts h3 {
+	font-size: 50px;
+	color: #306eb7;
+	font-weight: bold;
+	margin-bottom: 35px;
+	transition: 0.5s
+}
+
+.main-slide .right-texts .texts h3 span {
+	font-size: 35px;
+	color: #333333;
+	margin-left: 20px;
+	transition: 0.5s;
+	display: inline-block
+}
+
+.main-slide .right-texts .texts p {
+	transition: 1.5s;
+	font-size: 18px;
+	line-height: 36px;
+	color: #666666;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	-webkit-transform: translate(0, 30px);
+	-ms-transform: translate(0, 30px);
+	transform: translate(0, 30px)
+}
+
+.main-slide .right-texts .texts .more {
+	-webkit-transform: translate(0, 20px);
+	-ms-transform: translate(0, 20px);
+	transform: translate(0, 20px);
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	display: inline-block;
+	border: 1px solid #ddd;
+	transition: background-position 0.8s ease-in, -webkit-transform;
+	transition: transform, background-position 0.8s ease-in;
+	transition: transform, background-position 0.8s ease-in, -webkit-transform;
+	line-height: 38px;
+	padding-left: 25px;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 20px;
+	background: url(../img/more.png) no-repeat 110px 50%
+}
+
+.main-slide .right-texts .texts .more:hover {
+	border: 1px solid #fff;
+	background: url(../img/more-h.png) #306eb7 no-repeat 120px 50%;
+	color: #ffffff
+}
+
+.main-slide .right-texts li.active {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	z-index: 99
+}
+
+.main-slide .right-texts li.active p {
+	margin-bottom: 30px;
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0)
+}
+
+.main-slide .right-texts li.active .more {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0)
+}
+
+.main-slide .items {
+	position: absolute;
+	bottom: 140px;
+	left: 50%;
+	margin-left: -42%;
+	width: 85%;
+	z-index: 999
+}
+
+.main-slide .items dl {
+	width: 110%
+}
+
+.main-slide .items dd {
+	position: relative;
+	border-radius: 50%;
+	cursor: pointer;
+	background: #ffffff;
+	margin-right: 44px;
+	float: left;
+	text-align: center;
+	width: 72px;
+	height: 72px
+}
+
+.main-slide .items dd .box {
+	line-height: 70px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	width: 72px;
+	height: 72px
+}
+
+.main-slide .items dd .imgs {
+	transition: 0.5s;
+	width: 140px;
+	position: absolute;
+	left: 0;
+	height: 70px
+}
+
+.main-slide .items dd .ico {
+	border-radius: 50%;
+	width: 70px;
+	float: left;
+	overflow: hidden
+}
+
+.main-slide .items dd .ico2 {
+	border-radius: 50%;
+	width: 70px;
+	overflow: hidden;
+	float: left
+}
+
+.main-slide .items dd em {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	position: absolute;
+	transition: 0.5s;
+	left: 25px;
+	top: -28px;
+	background: url("../img/img14.png") no-repeat;
+	width: 39px;
+	height: 25px;
+	display: inline-block
+}
+
+.main-slide .items dd:hover em,.main-slide .items dd.active em {
+	left: 30px;
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+
+.main-slide .items dd:hover .imgs,.main-slide .items dd.active .imgs {
+	left: -70px;
+	background: #306eb7;
+}
+
+.main-slide .items a {
+	display: block
+}
+
+.main-slide .prev,.main-slide .next {
+	transition: 0.5s;
+	top: 30px;
+	right: 50%;
+	margin-right: -29px;
+	width: 57px;
+	height: 57px;
+	background: #ffffff;
+	position: absolute;
+	z-index: 999;
+	cursor: pointer
+}
+
+.main-slide .prev:before,.main-slide .prev:after,.main-slide .next:before,.main-slide .next:after {
+	transition: 0.5s;
+	top: 22px;
+	background: url(../img/up.png) no-repeat;
+	width: 25px;
+	height: 13px;
+	display: inline-block;
+	position: absolute;
+	content: ''
+}
+
+.main-slide .prev:before,.main-slide .next:before {
+	left: 14px
+}
+
+.main-slide .prev:after,.main-slide .next:after {
+	left: 22px
+}
+
+.main-slide .prev:hover,.main-slide .next:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,0.4)
+}
+
+.main-slide .prev:hover:before,.main-slide .next:hover:before {
+	left: 16px
+}
+
+.main-slide .prev:hover:after,.main-slide .next:hover:after {
+	left: 16px
+}
+
+.main-slide .next {
+	bottom: 40px;
+	top: auto
+}
+
+.main-slide .next:before,.main-slide .next:after {
+	background: url(../img/down.png) no-repeat
+}
+
+.main-index {
+	overflow: hidden
+}
+
+.main-index .index-item {
+	float: left;
+	position: relative;
+	width: 25%;
+	background: #eeeeee;
+	height: 100%;
+	opacity: 0;
+	transition: 0.6s all ease
+}
+
+.main-index .index-item:after {
+	position: absolute;
+	z-index: 99;
+	background: url("http://www.sino-web.net/Public/home/imgs/showad2.png") repeat-y;
+	width: 17px;
+	top: 0;
+	bottom: 0;
+	right: -17px;
+	content: '';
+	display: inline-block
+}
+
+.main-index .index-item .slogen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: 0.5s;
+	display: block;
+	background-size: cover;
+	background-repeat: no-repeat
+}
+
+.main-index .index-item .slogen>.txt {
+	z-index: 9
+}
+
+.main-index .index-item .slogen .mask-img {
+	z-index: 99
+}
+
+.main-index .index-item .slogen .mask-img .txt {
+	z-index: 20
+}
+
+.main-index .index-item .slogen:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2)
+}
+
+.main-index .index-item .img {
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+	bottom: 308px;
+	overflow: hidden
+}
+
+.main-index .index-item .content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 308px
+}
+
+.main-index .index-item .title {
+	position: relative;
+	height: 123px;
+	line-height: 123px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.main-index .index-item .title a {
+	font-size: 32px;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff
+}
+
+.main-index .index-item .title:before {
+	transition: 0.5s;
+	content: '';
+	display: inline-block;
+	background: url("http://www.sino-web.net/Public/home/imgs/img41.png") no-repeat;
+	width: 17px;
+	height: 9px;
+	position: absolute;
+	left: 50%;
+	margin-left: -8.5px;
+	top: 95px
+}
+
+.main-index .index-item .title:hover:before {
+	top: 100px
+}
+
+.main-index .txt {
+	position: absolute;
+	top: 35%;
+	left: 10%
+}
+
+.main-index .txt .h3 {
+	display: block;
+	font-size: 35px;
+	color: #fff
+}
+
+.main-index .txt .h4 {
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase
+}
+
+.main-index .index-item1 {
+	z-index: 9;
+	transition-delay: 0.15s
+}
+
+.main-index .index-item1 .title {
+	background-image: url("http://www.sino-web.net/Public/home/imgs/img29.jpg")
+}
+
+.main-index .index-item1 .icon1 {
+	background-image: url(../img/gov.png)
+}
+
+.main-index .index-item1 .icon2 {
+	background-image: url(../img/comp.png)
+}
+
+.main-index .index-item1 li:hover a {
+	color: #306eb7
+}
+
+.main-index .index-item1 li:hover .icon1 {
+	background-image: url(../img/gov-s.png)
+}
+
+.main-index .index-item1 li:hover .icon2 {
+	background-image: url(../img/comp-s.png)
+}
+
+.main-index .index-item2 {
+	z-index: 8;
+	transition-delay: 0.3s
+}
+
+.main-index .index-item2 .txt {
+	left: auto;
+	top: 8%;
+	left:15%
+}
+
+.main-index .index-item2 .txt .h3 {
+	color: #040404
+}
+
+.main-index .index-item2 .txt .h4 {
+	color: #040404
+}
+
+.main-index .index-item2 .title {
+	background-image: url("http://www.sino-web.net/Public/home/imgs/img31.jpg")
+}
+.main-index .index-item2 .icon3 {
+	background-image: url(../img/small.png)
+}
+
+.main-index .index-item2 .icon4 {
+	background-image: url(../img/shop.png)
+}
+
+.main-index .index-item2 li:hover a {
+	color: #306eb7
+}
+
+.main-index .index-item2 li:hover .icon3 {
+	background-image: url(../img/small-s.png)
+}
+
+.main-index .index-item2 li:hover .icon4 {
+	background-image: url(../img/shop-s.png)
+}
+
+.main-index .index-item3 {
+	z-index: 7;
+	transition-delay: 0.45s
+}
+
+.main-index .index-item3 .txt {
+	left: auto;
+	top: 75%;
+	right: 10%
+}
+
+.main-index .index-item3 .title {
+	background-image: url("http://www.sino-web.net/Public/home/imgs/img32.jpg")
+}
+
+.main-index .index-item3 .icon1 {
+	background-image: url(../img/biaoz.png)
+}
+
+.main-index .index-item3 .icon4 {
+	background-image: url(../img/derv.png)
+}
+
+.main-index .index-item3 li:hover a {
+	color: #306eb7
+}
+
+.main-index .index-item3 li:hover .icon1 {
+	background-image: url(../img/biaoz-s.png)
+}
+
+.main-index .index-item3 li:hover .icon4 {
+	background-image: url(../img/derv-s.png)
+}
+
+.main-index .index-item4 {
+	z-index: 6;
+	transition-delay: 0.6s
+}
+
+.main-index .index-item4 .title {
+	background-image: url("http://www.sino-web.net/Public/home/imgs/img33.jpg")
+}
+
+.main-index .index-item4 .icon1 {
+	background-image: url(../img/chart.png)
+}
+
+.main-index .index-item4 .icon2 {
+	background-image: url(../img/data.png)
+}
+
+.main-index .index-item4 li:hover a {
+	color: #306eb7
+}
+
+.main-index .index-item4 li:hover .icon1 {
+	background-image: url(../img/chart-s.png)
+}
+
+.main-index .index-item4 li:hover .icon2 {
+	background-image: url(../img/data-s.png)
+}
+
+.main-index .content ul {
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.main-index .content li {
+	position: relative;
+	width: 50%;
+	float: left;
+	height: 92px;
+	line-height: 92px;
+	background: #EDEDED
+}
+
+.main-index .content .item1 a,.main-index .content .item3 a {
+	float: right;
+	margin-right: 10px
+}
+
+.main-index .content .item2 a,.main-index .content .item4 a {
+	float: left;
+	margin-left: 10px
+}
+
+.main-index .content li a {
+	position: relative;
+	padding-left: 50px;
+	width: 135px;
+	margin: 0 auto;
+	display: block;
+	transition: 0.5s;
+	font-size: 18px;
+	color: #000000
+}
+
+.main-index .content .icon {
+	transition: 0.5s;
+	height: 92px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 50px;
+	display: inline-block
+}
+
+.main-index .content .item1,.main-index .content .item2 {
+	border-bottom: 1px dashed #BEBEBE;
+	background: #f8f8f8
+}
+
+.main-index .content li:hover .icon {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg)
+}
+
+.loaded .main-index .index-item {
+	opacity: 1
+}
+
+.loaded .mask-img {
+	background-size: cover;
+	transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	background-repeat: no-repeat;
+	-webkit-animation: slide 15s ease-out infinite;
+	animation: slide 15s ease-out infinite;
+	-webkit-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+.loaded .index-item1 .mask-img {
+	-webkit-animation-delay: 1.2s;
+	animation-delay: 1.2s
+}
+
+.loaded .index-item2 .mask-img {
+	-webkit-animation-delay: 1.6s;
+	animation-delay: 1.6s
+}
+
+.loaded .index-item3 .mask-img {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s
+}
+
+.loaded .index-item4 .mask-img {
+	-webkit-animation-delay: 2.4s;
+	animation-delay: 2.4s
+}
+
+.sp-animation {
+	z-index: 0;
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	left: -100px;
+	top: -100px;
+	animation: down 0.7s 0.2s 1 ease-out;
+	animation-fill-mode: forwards;
+	-webkit-animation: down 0.7s 0.2s 1 ease-out;
+	-webkit-animation-fill-mode: forwards
+}
+
+.sp-animation .obox {
+	position: absolute;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border-radius: 100%;
+	border: 1px solid #e5e5e5;
+	animation: obox 10s 2s infinite ease;
+	animation-fill-mode: forwards;
+	-webkit-animation: obox 10s 2s infinite ease;
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate
+}
+
+@-webkit-keyframes down {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%)
+	}
+
+	60% {
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%)
+	}
+
+	80% {
+		-webkit-transform: translateY(-20%);
+		transform: translateY(-20%)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px)
+	}
+}
+
+@keyframes down {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%)
+	}
+
+	60% {
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%)
+	}
+
+	80% {
+		-webkit-transform: translateY(-20%);
+		transform: translateY(-20%)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px)
+	}
+}
+
+@-webkit-keyframes obox {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9)
+	}
+
+	50% {
+		-webkit-transform: scale(0.7, 0.7);
+		transform: scale(0.7, 0.7);
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+}
+
+@keyframes obox {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0.9, 0.9);
+		transform: scale(0.9, 0.9)
+	}
+
+	50% {
+		-webkit-transform: scale(0.7, 0.7);
+		transform: scale(0.7, 0.7);
+		opacity: 1
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1, 1);
+		transform: scale(1, 1)
+	}
+}
+
+.load {
+	background: #000000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 999
+}
+
+.gb-aside {
+	z-index: 999999;
+	text-align: center;
+	width: 80px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 33px
+}
+
+.gb-aside:before {
+	box-shadow: 5px 0 40px rgba(0,0,0,0.3);
+	background: #ffffff;
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99
+}
+
+.gb-aside .home,.gb-aside .logo {
+	position: relative;
+	z-index: 99
+}
+
+.gb-aside .nav ul>li>a {
+	position: relative;
+	z-index: 99;
+	border-bottom: 1px solid #CBCBCB
+}
+
+.gb-aside .home {
+	height: 80px;
+	border-bottom: 1px solid #CBCBCB
+}
+
+.gb-aside .home a {
+	display: block;
+	height: 100%;
+	transition: 0.5s
+}
+
+.gb-aside .home .icon-home {
+	margin-top: 20px;
+	background: url("../img/home-s.png") no-repeat center;
+	width: 100%;
+	height: 34px;
+	background-size: contain;
+}
+
+.gb-aside .home a:hover {
+	background: rgba(46,172,55,0.9)
+}
+
+.gb-aside .home.active a,.gb-aside .home:hover a {
+	background: #306eb7
+}
+
+.gb-aside .home.active .icon-home,.gb-aside .home:hover .icon-home {
+	background: url("../img/home.png") no-repeat center;
+	    background-size: contain;
+}
+
+.gb-aside .nav li {
+	height: 99px;
+	border-bottom: 1px solid #CBCBCB
+}
+
+.gb-aside .asidenav-btn {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 60px;
+	height: 50px;
+	background: url(http://www.sino-web.net/Public/home/imgs/nav-btn.png) center no-repeat
+}
+
+.gb-aside .nav a {
+	overflow: hidden;
+	transition: 0.3s;
+	font-size: 14px;
+	color: #585858;
+	display: block;
+	height: 100%
+}
+
+.gb-aside .nav .icon {
+	display: block;
+	background-position: center;
+	height: 36px;
+	margin-top: 20px;
+	background-image: url(../img/about-s.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.gb-aside .nav .icon-serve {
+	background-image: url("../img/plan-s.png")
+}
+
+.gb-aside .nav .icon-case {
+	background-image: url("../img/case-s.png")
+}
+
+.gb-aside .nav .icon-news {
+	background-image: url("../img/news-s.png")
+}
+
+.gb-aside .nav .icon-contac {
+	background-image: url("../img/call-s.png")
+}
+
+.gb-aside .nav li:hover,.gb-aside .nav li.active {
+	border-bottom: 1px solid transparent
+}
+
+.gb-aside .nav li:hover>a,.gb-aside .nav li.active>a {
+	background: #306eb7;
+}
+
+.gb-aside .nav li:hover .icon-about,.gb-aside .nav li.active .icon-about {
+	background-image: url("../img/about.png");
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+.gb-aside .nav li:hover .icon-serve,.gb-aside .nav li.active .icon-serve {
+	background-image: url(../img/plan.png)
+}
+
+.gb-aside .nav li:hover .icon-case,.gb-aside .nav li.active .icon-case {
+	background-image: url(../img/case.png)
+}
+
+.gb-aside .nav li:hover .icon-news,.gb-aside .nav li.active .icon-news {
+	background-image: url(../img/new.png)
+}
+
+.gb-aside .nav li:hover .icon-contac,.gb-aside .nav li.active .icon-contac {
+	background-image: url(../img/call.png)
+}
+
+.gb-aside .nav li:hover a,.gb-aside .nav li.active a {
+	color: #ffffff
+}
+
+.gb-aside .logo {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right: 0
+}
+
+.slide-nav {
+	position: fixed;
+	top: 0;
+	left: -120px;
+	transition: 0.5s;
+	bottom: 0;
+	text-align: center;
+	z-index: 9;
+	width: 120px;
+	background: rgba(48,110,183,0.9)
+}
+
+.slide-nav dl {
+	margin-top: 100px
+}
+
+.slide-nav dd {
+	background: transparent;
+	height: 100px;
+	line-height: 100px
+}
+
+.slide-nav dd a {
+	background: transparent !important;
+	font-size: 14px;
+	color: #ffffff;
+	display: block
+}
+
+.slide-nav dd:hover {
+	background: #306eb7
+}
+
+.gb-aside .nav li:hover .slide-nav {
+	left: 80px
+}
+
+.md-post {
+	width: 85%;
+	font-size: 16px;
+	margin: 30px auto
+}
+
+.footer {
+	position: relative;
+	z-index: 999999;
+	padding: 0 25px;
+	height: 33px;
+	line-height: 33px;
+	background: #1a1a1a;
+	font-size: 12px;
+	color: #707070;
+	overflow: hidden
+}
+
+.footer a {
+	color: #707070;
+	margin: 0 5px
+}
+
+.footer a:hover {
+	color: #fff
+}
+
+.footer #links {
+	overflow: hidden;
+	width: 500px
+}
+
+.footer .qimo8 .qimo {
+	width: 8000%
+}
+
+.footer span {
+	margin-right: 10px
+}
+
+.footer .qimo8 .qimo div {
+	float: left
+}
+
+.footer .qimo8 .qimo ul {
+	float: left;
+	overflow: hidden;
+	zoom: 1
+}
+
+.footer .qimo8 .qimo ul li {
+	float: left;
+	line-height: 33px
+}
+
+.footer .qimo8 li a {
+	margin-right: 10px
+}
+
+.footer a:hover {
+	color: #ffffff
+}
+
+.footer.footer-fixed {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+
+.loading {
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 60px;
+	right: 0;
+	z-index: 99999
+}
+
+.loading .img {
+	width: 595px;
+	height: 170px
+}
+
+.loading .load-box {
+	width: 600px;
+	position: absolute;
+	top: 50%;
+	height: 260px;
+	margin-top: -130px;
+	left: 50%;
+	margin-left: -300px
+}
+
+.loading .icon {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -20px;
+	background: url("../img/wait.gif") no-repeat;
+	background-size: cover;
+	width: 40px;
+	height: 40px
+}
+
+@-webkit-keyframes wp {
+	0% {
+		-webkit-transform: translate3d(0, 0, 0) scale(1);
+		transform: translate3d(0, 0, 0) scale(1)
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, 0, 0) scale(1.1);
+		transform: translate3d(0, 0, 0) scale(1.1)
+	}
+}
+
+@keyframes wp {
+	0% {
+		-webkit-transform: translate3d(0, 0, 0) scale(1);
+		transform: translate3d(0, 0, 0) scale(1)
+	}
+
+	100% {
+		-webkit-transform: translate3d(0, 0, 0) scale(1.1);
+		transform: translate3d(0, 0, 0) scale(1.1)
+	}
+}
+
+@-webkit-keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%)
+	}
+
+	8% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0)
+	}
+
+	52% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0)
+	}
+
+	60% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%)
+	}
+
+	100% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%)
+	}
+}
+
+@keyframes slide {
+	0% {
+		-webkit-transform: translateX(-100%);
+		transform: translateX(-100%)
+	}
+
+	8% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0)
+	}
+
+	52% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0)
+	}
+
+	60% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%)
+	}
+
+	100% {
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%)
+	}
+}
+
+.md-post {
+	font-size: 16px;
+	color: #666666;
+	line-height: 2
+}
+
+.post-page {
+	width: 85%;
+	height: auto;
+	padding-bottom: 80px;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 30px;
+	border-top: 1px solid #CCCCCC
+}
+
+.post-page a {
+	font-size: 14px;
+	color: #666666
+}
+
+.post-page .prev {
+	float: left
+}
+
+.post-page .next {
+	float: right
+}
+
+.post-page a:hover {
+	color: #306eb7
+}
+
+.main-about {
+	position: relative;
+	overflow: hidden
+}
+
+.main-about .wrap {
+	width: 1280px
+}
+
+.main-about .section {
+	overflow: hidden;
+	position: relative;
+	background-size: cover;
+	right: 0;
+	background-color: #ffffff;
+	background-position: center
+}
+.main-about .ico {
+	margin: 0 auto;
+	background: url("http://www.sino-web.net/Public/home/imgs/img76.png") no-repeat;
+	width: 27px;
+	height: 32px
+}
+
+.main-about span {
+	font-size: 24px;
+	color: #ffffff
+}
+
+.main-about .num {
+	margin-bottom: 25px;
+	height: 85px;
+	position: relative
+}
+
+.main-about .num em {
+	position: relative;
+	top: -25px;
+	margin-left: 10px;
+	font-size: 50px;
+	color: #ffffff
+}
+
+.main-about .num span {
+	transition: 0.5s;
+	width: 50px;
+	display: inline-block;
+	height: 85px;
+	background-image: url(http://www.sino-web.net/Public/home/imgs/img67.png);
+	background-repeat: no-repeat;
+	background-position: 0 0
+}
+
+.main-about .section1 {
+	z-index: 1;
+	overflow: hidden;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 923px;
+	background-size: cover
+}
+
+.main-about .section1 .top-text {
+	padding-left: 40px;
+	height: auto;
+	overflow: hidden
+}
+
+.main-about .section1 .con {
+	position: absolute;
+	height: 580px;
+	top: 50%;
+	margin-top: -290px
+}
+
+.main-about .section1 .left-text {
+	float: left;
+	width: 480px;
+	color: #ffffff
+}
+
+.main-about .section1 .left-text h3 {
+	font-size: 48px;
+	padding-bottom: 15px;
+	position: relative;
+	margin-bottom: 18px
+}
+
+.main-about .section1 .left-text h3:before {
+	height: 3px;
+	background: #fff;
+	width: 50px;
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0
+}
+
+.main-about .section1 .left-text h4 {
+	font-size: 24px;
+	margin-bottom: 10px
+}
+
+.main-about .section1 .left-text p {
+	font-size: 14px;
+	line-height: 26px
+}
+
+.main-about .section1 .right-map {
+	position: relative;
+	float: right;
+	background: url("../img/map.png") no-repeat;
+	width: 754px;
+	height: 340px;
+	background-size: 52%;
+    background-position: top center;
+}
+
+.first-sec{
+	background:url('../img/bgImg.jpg');
+}
+
+.main-about .section1 .point-area {
+	text-align: center;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	transition: opacity .5s ease-out
+}
+
+.main-about .section1 .point-area .txt {
+	width: 60px;
+	position: absolute;
+	left: 50px;
+	top: 40%;
+	color: #ffffff
+}
+
+.main-about .section1 .point-area:before {
+	position: absolute;
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #ffffff;
+	display: inline-block;
+	margin-left: -5px;
+	margin-top: -5px;
+	top: 50%;
+	left: 50%
+}
+
+.main-about .section1 .point {
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+
+.main-about .section1 .point:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	opacity: 0
+}
+
+.main-about .section1 .point.point-10:after {
+	-webkit-animation: ripple 4.5s ease-out 225ms infinite;
+	animation: ripple 4.5s ease-out 225ms infinite
+}
+
+.main-about .section1 .point.point-40:after {
+	-webkit-animation: ripple 4.5s ease-out .9s infinite;
+	animation: ripple 4.5s ease-out .9s infinite
+}
+
+.main-about .section1 .point.point-80:after {
+	-webkit-animation: ripple 4.5s ease-out 1.8s infinite;
+	animation: ripple 4.5s ease-out 1.8s infinite
+}
+
+.main-about .section1 .point.point-shadow:after {
+	box-shadow: inset 0 0 5em rgba(0,205,236,0.16)
+}
+
+.main-about .section1 .list {
+	margin-top: 20px;
+	padding-top: 20px;
+	height: 228px;
+	border-top: 1px solid rgba(255,255,255,0.15)
+}
+
+.main-about .section1 .list h3 {
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 33px;
+	color: #ffffff
+}
+
+.main-about .section1 .list li:last-child {
+	border-right: none
+}
+
+.main-about .section1 .list li {
+	padding-bottom: 15px;
+	text-align: center;
+	border-right: 1px solid rgba(255,255,255,0.15);
+	padding-left: 30px;
+	width: 25%;
+	float: left
+}
+
+.main-about .section1 .list li:nth-child(1) span:nth-child(1) {
+	transition: 0.8s all ease-in-out
+}
+
+.main-about .section1 .list li:nth-child(1) span:nth-child(2) {
+	transition: 0.8s all ease-in-out 0.2s
+}
+
+.main-about .section1 .list li:nth-child(2) span:nth-child(1) {
+	transition: 0.8s all ease-in-out
+}
+
+.main-about .section1 .list li:nth-child(2) span:nth-child(2) {
+	transition: 0.8s all ease-in-out 0.2s
+}
+
+.main-about .section1 .list li:nth-child(3) span:nth-child(1) {
+	transition: 0.8s all ease-in-out
+}
+
+.main-about .section1 .list li:nth-child(3) span:nth-child(2) {
+	transition: 0.8s all ease-in-out 0.2s
+}
+
+.main-about .section1 .list li:nth-child(4) span:nth-child(1) {
+	transition: 0.8s all ease-in-out
+}
+
+.main-about .section1 .list li:nth-child(4) span:nth-child(2) {
+	transition: 0.8s all ease-in-out 0.2s
+}
+
+.main-about .section1 .list li:nth-child(4) span:nth-child(3) {
+	transition: 0.8s all ease-in-out 0.5s
+}
+
+.main-about .section1 .list li:nth-child(4) span:nth-child(4) {
+	transition: 0.8s all ease-in-out 0.9s
+}
+
+.main-about .section1 .list.on .num .n0 {
+	background-position: 0 -850px
+}
+
+.main-about .section1 .list.on .num .n1 {
+	background-position: 0 -935px
+}
+
+.main-about .section1 .list.on .num .n2 {
+	background-position: 0 -1020px
+}
+
+.main-about .section1 .list.on .num .n3 {
+	background-position: 0 -1105px
+}
+
+.main-about .section1 .list.on .num .n4 {
+	background-position: 0 -1190px
+}
+
+.main-about .section1 .list.on .num .n5 {
+	background-position: 0 -1275px
+}
+
+.main-about .section1 .list.on .num .n6 {
+	background-position: 0 -1360px
+}
+
+.main-about .section1 .list.on .num .n7 {
+	background-position: 0 -1445px
+}
+
+.main-about .section1 .list.on .num .n8 {
+	background-position: 0 -1530px
+}
+
+.main-about .section1 .list.on .num .n9 {
+	background-position: 0 -1615px
+}
+
+.main-about .section1 .arrow {
+	position: absolute;
+	z-index: 99;
+	bottom: 20px;
+	left: 50%;
+	width: 30px;
+	cursor: pointer;
+	margin-left: -15px
+}
+
+.main-about .section1 .arrow:before,.main-about .section1 .arrow:after {
+	transition: 0.3s;
+	background: url("http://www.sino-web.net/Public/home/imgs/img72.png") center no-repeat;
+	width: 25px;
+	height: 14px;
+	content: '';
+	display: inline-block
+}
+
+.main-about .section1 .arrow:after {
+	-webkit-animation: arrow 3s ease-out 500ms infinite;
+	animation: arrow 3s ease-out 500ms infinite
+}
+
+.main-about .section1 .arrow:before {
+	-webkit-animation: arrow 3s ease-out 1s infinite;
+	animation: arrow 3s ease-out 1s infinite
+}
+
+.main-about .section2 {
+	z-index: 2;
+	position: relative
+}
+
+.main-about .section2:before,.main-about .section2:after {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	width: 50%;
+	display: inline-block;
+	content: ''
+}
+
+.main-about .section2:before {
+	left: 0;
+	background: #f6f6f6
+}
+
+.main-about .section2:after {
+	right: 0;
+	background: #fff
+}
+
+.main-about .section2 .table {
+	position: relative;
+	z-index: 9;
+	display: table
+}
+
+.main-about .section2 .table-cell {
+	vertical-align: middle;
+	display: table-cell
+}
+
+.main-about .section2 .left-text {
+	float: left;
+	width: 50%;
+	padding-right: 50px
+}
+
+.main-about .section2 .left-text .img {
+	margin-bottom: 100px;
+	padding-bottom: 15px;
+	position: relative
+}
+
+.main-about .section2 .left-text .img:before {
+	content: '';
+	display: inline-block;
+	height: 3px;
+	width: 50px;
+	background: #306eb7;
+	position: absolute;
+	left: 0;
+	bottom: 0
+}
+
+.main-about .section2 .right-text {
+	width: 50%;
+	float: right;
+	padding-left: 50px
+}
+
+.main-about .section2 .txt h3 {
+	font-size: 48px;
+	color: #000000
+}
+
+.main-about .section2 .txt p {
+	line-height: 38px;
+	font-size: 14px;
+	color: #484848
+}
+/*
+.main-about .section3 {
+	z-index: 3;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+
+.main-about .section3 .head {
+	text-align: center;
+	margin-bottom: 25px
+}
+
+.main-about .section3 .head h3 {
+	font-size: 48px;
+	color: #333333;
+	position: relative;
+	padding-bottom: 28px;
+	margin-bottom: 10px
+}
+
+.main-about .section3 .head h3:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	bottom: 0;
+	background: #1fae38;
+	margin-left: -25px;
+	left: 50%
+}
+
+.main-about .section3 .head h3 b {
+	color: #22b13f
+}
+
+.main-about .section3 .head h4 {
+	font-size: 24px;
+	color: #333333
+}
+
+.main-about .section3 .body {
+	width: 1200px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin: 0 auto;
+	height: 750px;
+	position: relative;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img38.jpg") repeat-y 214px
+}
+
+.main-about .section3 .body:before {
+	content: '';
+	top: 0;
+	left: 198px;
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img73.png") no-repeat center #21b13f;
+	display: inline-block;
+	border-radius: 50%
+}
+
+.main-about .section3 .body:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 208px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: #21b13f
+}
+
+.main-about .section3 .body li {
+	margin-bottom: 29px;
+	padding-left: 155px;
+	position: relative
+}
+
+.main-about .section3 .body .date {
+	font-size: 24px;
+	color: #666666;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -15px
+}
+
+.main-about .section3 .body .dot {
+	left: 106px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img74.png") no-repeat;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	margin-top: -9px
+}
+
+.main-about .section3 .body .txt {
+	transition: 0.5s;
+	font-size: 14px;
+	line-height: 24px;
+	border: 1px solid #b0d5b8;
+	padding: 13px 20px;
+	background: #ffffff;
+	border-radius: 10px
+}
+
+.main-about .section3 .body li:hover .txt {
+	background: #21b13f;
+	color: #ffffff;
+	border: 1px solid #21b13f
+}*/
+
+.main-about .section3 {
+	z-index: 4
+}
+
+.main-about .section3 .wrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -640px;
+	margin-top: -305px;
+	height: 610px
+}
+
+.main-about .section3 .case {
+	margin-top: 70px
+}
+
+.main-about .section3 .case .num {
+	margin-bottom: 20px;
+	padding-left: 30px;
+	margin-top: 30px
+}
+
+.main-about .section3 .case span:nth-child(1) {
+	transition: 0.8s all ease-in-out
+}
+
+.main-about .section3 .case span:nth-child(2) {
+	transition: 0.8s all ease-in-out 0.2s
+}
+
+.main-about .section3 .case span:nth-child(3) {
+	transition: 0.8s all ease-in-out 0.5s
+}
+
+.main-about .section3 .case span:nth-child(4) {
+	transition: 0.8s all ease-in-out 0.9s
+}
+
+.main-about .section3.on .num .n0 {
+	background-position: 0 -850px
+}
+
+.main-about .section3.on .num .n1 {
+	background-position: 0 -935px
+}
+
+.main-about .section3.on .num .n2 {
+	background-position: 0 -1020px
+}
+
+.main-about .section3.on .num .n3 {
+	background-position: 0 -1105px
+}
+
+.main-about .section3.on .num .n4 {
+	background-position: 0 -1190px
+}
+
+.main-about .section3.on .num .n5 {
+	background-position: 0 -1275px
+}
+
+.main-about .section3.on .num .n6 {
+	background-position: 0 -1360px
+}
+
+.main-about .section3.on .num .n7 {
+	background-position: 0 -1445px
+}
+
+.main-about .section3.on .num .n8 {
+	background-position: 0 -1530px
+}
+
+.main-about .section3.on .num .n9 {
+	background-position: 0 -1615px
+}
+
+.main-about .section3 .left {
+	font-size: 14px;
+	line-height: 38px;
+	width: 307px;
+	color: #ffffff
+}
+
+.main-about .section3 .left h3 {
+	font-size: 48px;
+	color: #fafafa;
+	position: relative;
+	padding-bottom: 38px;
+	margin-bottom: 15px
+}
+
+.main-about .section3 .left h3:before {
+	width: 50px;
+	height: 3px;
+	background: #fff;
+	content: '';
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0
+}
+
+.main-about .section3 .left .case {
+	text-align: center
+}
+
+.main-about .section3 .left h4 {
+	font-size: 20px
+}
+
+.main-about .section3 .right {
+	width: 800px;
+	position: relative
+}
+
+.main-about .section3 .right ul {
+	height: auto;
+	overflow: hidden
+}
+
+.main-about .section3 .right ul li {
+	margin-bottom: 20px;
+	height: 120px;
+	width: 33.33%;
+	text-align: center;
+	line-height: 120px;
+	float: left
+}
+
+.main-about .section3 .right ul li .img1 {
+	transition: 0.5s
+}
+
+.main-about .section3 .right ul li:hover .img1 {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-filter: gray;
+	filter: gray
+}
+
+.main-about .section3 .right .owl-pagination {
+	text-align: center
+}
+
+.main-about .section3 .right .owl-page {
+	margin: 0 5px;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #b0b0b0
+}
+
+.main-about .section3 .right .owl-page.active {
+	background: #1fae38
+}
+
+.main-about .section5 {
+	z-index: 5;
+	overflow-y: auto;
+	padding-top: 40px;
+	padding-bottom: 40px
+}
+
+.main-about .section5 .head {
+	text-align: center;
+	margin-bottom: 50px
+}
+
+.main-about .section5 .head h3 {
+	font-size: 48px;
+	color: #333333;
+	margin-bottom: 20px
+}
+
+.main-about .section5 .head h4 {
+	font-size: 22px;
+	color: #20ae38;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: uppercase
+}
+
+.main-about .section5 .head p {
+	font-size: 14px;
+	line-height: 28px;
+	color: #555555
+}
+
+.main-about .section5 .body {
+	position: relative;
+	height: 490px;
+	margin-bottom: 40px
+}
+
+.main-about .section5 .body .owl-prev,.main-about .section5 .body .owl-next {
+	width: 22px;
+	height: 43px;
+	top: 50%;
+	margin-top: -20px;
+	position: absolute
+}
+
+.main-about .section5 .body .owl-prev {
+	background: url(http://www.sino-web.net/Public/home/imgs/img79.png) no-repeat;
+	left: 0
+}
+
+.main-about .section5 .body .owl-next {
+	background: url(http://www.sino-web.net/Public/home/imgs/img80.png) no-repeat;
+	right: 0
+}
+
+.main-about .section5 .body .slide-item {
+	width: 930px;
+	margin: 0 auto;
+	position: relative;
+	height: 490px
+}
+
+.main-about .section5 .body .item {
+	border: 3px solid transparent;
+	position: absolute
+}
+
+.main-about .section5 .body .item:hover {
+	border: 3px solid #20ae38
+}
+
+.main-about .section5 .body .item1,.main-about .section5 .body .item2,.main-about .section5 .body .item3,.main-about .section5 .body .item4 {
+	top: 0
+}
+
+.main-about .section5 .body .item5 {
+	bottom: 0;
+	left: 0
+}
+
+.main-about .section5 .body .item6 {
+	bottom: 0;
+	left: 195px
+}
+
+.main-about .section5 .body .item7 {
+	bottom: 0;
+	left: 378px
+}
+
+.main-about .section5 .body .item8 {
+	bottom: 0;
+	left: 561px
+}
+
+.main-about .section5 .body .item9 {
+	bottom: 0;
+	left: 755px
+}
+
+.main-about .section5 .slide-item1 .item1 {
+	left: 0
+}
+
+.main-about .section5 .slide-item1 .item2 {
+	left: 200px
+}
+
+.main-about .section5 .slide-item1 .item3 {
+	left: 405px
+}
+
+.main-about .section5 .slide-item1 .item4 {
+	left: 605px
+}
+
+.main-about .section5 .body .slide-item2 {
+	height: 428px;
+	position: relative;
+	width: 1005px
+}
+
+.main-about .section5 .body .slide-item2 img {
+	width: 100%;
+	height: 100%
+}
+
+.main-about .section5 .body .slide-item2 .item {
+	top: auto;
+	left: auto
+}
+
+.main-about .section5 .body .slide-item2 .item1 {
+	width: 202px;
+	height: 145px;
+	left: 0;
+	top: 0
+}
+
+.main-about .section5 .body .slide-item2 .item2 {
+	width: 202px;
+	height: 262px;
+	left: 0;
+	bottom: 0
+}
+
+.main-about .section5 .body .slide-item2 .item3 {
+	width: 195px;
+	height: 262px;
+	left: 222px;
+	top: 0
+}
+
+.main-about .section5 .body .slide-item2 .item4 {
+	width: 199px;
+	height: 139px;
+	left: 222px;
+	bottom: 0
+}
+
+.main-about .section5 .body .slide-item2 .item5 {
+	width: 346px;
+	height: 430px;
+	left: 440px;
+	top: 0
+}
+
+.main-about .section5 .body .slide-item2 .item6 {
+	width: 206px;
+	height: 123px;
+	right: 0;
+	top: 0
+}
+
+.main-about .section5 .body .slide-item2 .item7 {
+	width: 206px;
+	height: 285px;
+	bottom: 0;
+	right: 0
+}
+
+.main-about .section {
+	position: absolute;
+	transition: 0.8s;
+	left: 0;
+	overflow: hidden;
+	overflow-y: auto;
+	top: 0;
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%)
+}
+
+.main-about .section.active {
+	position: fixed;
+	top: 0;
+	left: 60px;
+	right: 0;
+	margin-top: 0 !important
+}
+
+.main-about.anim_down .section1 {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.main-about.anim1_up .section1 {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.anim2_up .section1 {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.anim2_up .section2 {
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+.anim2_up .section3 {
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%)
+}
+
+.anim2_down .section1 {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.anim2_down .section2 {
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+.anim2_down .section3 {
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%)
+}
+
+.anim3_down .section1 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim3_down .section2 {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.anim3_down .section3 {
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+.anim3_up .section2 {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.anim3_up .section3 {
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+.anim3_up .section3 {
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%)
+}
+
+.anim4_down .section1 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim4_down .section2 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim4_down .section3 {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.anim4_down .section3 {
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0)
+}
+
+.anim4_up .section2 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim4_up .section3 {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.anim4_up .section3 {
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+.anim4_up .section5 {
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%)
+}
+
+.anim5_down .section1 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim5_down .section2 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim5_down .section3 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim5_down .section3 {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.anim5_down .section5 {
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+.anim5_up .section1 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim5_up .section2 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim5_up .section3 {
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%)
+}
+
+.anim5_up .section3 {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+
+.anim5_up .section5 {
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%)
+}
+
+.anim6_up .section5 {
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%)
+}
+
+.anim6_up .section6 {
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transform: translateY(0%)
+}
+
+.anim6_up .section7 {
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+	-webkit-transform: translateY(100%)
+}
+
+.anim7_down .section1 {
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%)
+}
+
+.anim7_down .section2 {
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%)
+}
+
+.anim7_down .section3 {
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%)
+}
+
+.anim7_down .section3 {
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%)
+}
+
+.anim7_down .section5 {
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%)
+}
+
+.anim7_down .section6 {
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%)
+}
+
+.anim7_down .section7 {
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transform: translateY(0%)
+}
+
+.main-news2 {
+	padding-top: 150px
+}
+
+.main-news2 .right-list {
+	width: 1580px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.main-news2 .right-list .con {
+	width: 110%
+}
+
+.main-news2 .right-list .page {
+	margin-bottom: 50px;
+	text-align: center
+}
+
+.main-news2 .right-list .page a {
+	width: 36px;
+	font-size: 12px;
+	height: 36px;
+	background: #ececec;
+	color: #848484;
+	font-size: 14px;
+	text-align: center;
+	line-height: 36px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 10px
+}
+
+.main-news2 .right-list .page a:hover {
+	color: #2fad38
+}
+
+.main-news2 .right-list .page a.active {
+	background: #2fad38;
+	color: #ffffff;
+	font-weight: bold
+}
+
+.main-news2 .right-list .page .prev {
+	background: #ececec url("http://www.sino-web.net/Public/home/imgs/img83.png") center no-repeat
+}
+
+.main-news2 .right-list .page .next {
+	background: #ececec url("http://www.sino-web.net/Public/home/imgs/img84.png") center no-repeat
+}
+
+.main-news2 .right-list .con a {
+	margin-bottom: 50px;
+	margin-right: 107px;
+	width: 698px;
+	float: left;
+	display: block;
+	padding-left: 110px;
+	position: relative
+}
+
+.main-news2 .right-list .con a h3 {
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: #636161;
+	font-weight: bold
+}
+
+.main-news2 .right-list .con a p {
+	font-size: 14px;
+	line-height: 26px;
+	color: #666666
+}
+
+.main-news2 .right-list .con a .date {
+	left: 0;
+	top: 0;
+	position: absolute;
+	text-align: center;
+	background: #ececec;
+	width: 90px;
+	height: 98px
+}
+
+.main-news2 .right-list .con a .date .d {
+	height: 59px;
+	line-height: 59px;
+	display: block;
+	font-size: 36px;
+	color: #8d8d8d;
+	font-weight: bold
+}
+
+.main-news2 .right-list .con a .date .y {
+	display: block;
+	font-size: 14px;
+	color: #ffffff;
+	height: 40px;
+	background: #bdbdbd;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+.main-news2 .right-list .con a .date .y:before {
+	content: '';
+	background: url("http://www.sino-web.net/Public/home/imgs/img81.png") no-repeat;
+	display: inline-block;
+	width: 19px;
+	height: 7px;
+	position: absolute;
+	left: 50%;
+	margin-left: -9.5px;
+	top: -7px
+}
+
+.main-news2 .right-list .con a:hover h3 {
+	color: #2fad38
+}
+
+.main-news2 .right-list .con a:hover .date .d {
+	color: #2fad38
+}
+
+.main-news2 .right-list .con a:hover .date .y {
+	background: #2fad38
+}
+
+.main-news2 .right-list .con a:hover .date .y:before {
+	background: url("http://www.sino-web.net/Public/home/imgs/img82.png") no-repeat
+}
+
+.main-news .item2 {
+	margin-top: 600px;
+	margin-left: 0
+}
+
+.main-news.fixed-2 .item2 {
+	position: fixed;
+	margin-top: 0 !important;
+	left: 80px
+}
+
+.main-news.fixed-2 .item3 {
+	margin-top: 1200px
+}
+
+.main-news.fixed-3 .item3 {
+	position: fixed;
+	margin-top: 0 !important;
+	left: 80px
+}
+
+.main-news.fixed-3 .item4 {
+	margin-top: 1800px
+}
+
+.main-news.fixed-4 .item4 {
+	position: fixed;
+	margin-top: 0 !important;
+	left: 80px
+}
+
+.main-news.fixed-4 .item5 {
+	margin-top: 2400px
+}
+
+.main-news .item {
+	transition: marginTop 0.5s;
+	margin-left: 0;
+	z-index: 99;
+	height: 600px;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative
+}
+
+.main-news .item1 {
+	z-index: 1;
+	position: fixed
+}
+
+.main-news .item2 {
+	z-index: 2
+}
+
+.main-news .item3 {
+	z-index: 3
+}
+
+.main-news .item4 {
+	z-index: 4
+}
+
+.main-news .item4 {
+	z-index: 5
+}
+
+.main-news .table-con {
+	padding-top: 95px;
+	height: 600px;
+	width: 988px;
+	margin: 0 auto;
+	display: table
+}
+
+.main-news .logo {
+	margin-bottom: 10px
+}
+
+.main-news .logo .img1 {
+	display: none
+}
+
+.main-news .big {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-size: 60px;
+	font-weight: bold
+}
+
+.main-news .text {
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000
+}
+
+.main-news .more {
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	border-radius: 5px;
+	background: #306eb7;
+	color: #ffffff;
+	font-size: 18px;
+	margin: 20px auto
+}
+
+.main-news .more:hover {
+	background: #e62a0d
+}
+
+.main-news .tag {
+	font-size: 14px;
+	color: #adadad
+}
+
+.main-ywxq {
+	overflow-x: hidden
+}
+
+.main-ywxq .header {
+	position: relative;
+	background: url("http://www.sino-web.net/Public/home/imgs/img2.jpg") no-repeat;
+	height: 380px;
+	padding-left: 150px;
+	padding-top: 120px;
+	background-size: cover;
+	color: #ffffff
+}
+
+.main-ywxq .header .close {
+	transition: 1.5s;
+	background: url("http://www.sino-web.net/Public/home/imgs/img40.png") no-repeat;
+	width: 52px;
+	height: 52px;
+	position: absolute;
+	top: 120px;
+	z-index: 99;
+	right: 50px
+}
+
+.main-ywxq .header .close a {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+.main-ywxq .header .close.active {
+	-webkit-transform: rotate(45deg) translate(0, 50px);
+	-ms-transform: rotate(45deg) translate(0, 50px);
+	transform: rotate(45deg) translate(0, 50px)
+}
+
+.main-ywxq .header h2 {
+	font-size: 60px
+}
+
+.main-ywxq .header h4 {
+	font-size: 18px;
+	color: #ffffff;
+	margin-top: 15px
+}
+
+.main-ywxq .header h5 {
+	font-size: 20px
+}
+
+.main-ywxq .title {
+	width: 280px;
+	font-size: 30px;
+	color: #000000;
+	position: absolute;
+	top: 50%;
+	left: -385px;
+	text-align: right;
+	margin-top: -20px
+}
+
+.main-ywxq .list {
+	padding: 50px 100px 122px 385px;
+	overflow: hidden;
+	position: relative
+}
+
+.main-ywxq .list:before {
+	background: url("http://www.sino-web.net/Public/home/imgs/img3.jpg") repeat-y;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	content: '';
+	width: 1px;
+	display: inline-block;
+	left: 315px
+}
+
+.main-ywxq .list ul {
+	position: relative;
+	z-index: 99
+}
+
+.main-ywxq .list li {
+	margin-bottom: 40px;
+	position: relative
+}
+
+.main-ywxq .list li:before,.main-ywxq .list li:after {
+	position: absolute;
+	content: '';
+	display: inline-block
+}
+
+.main-ywxq .list li:before {
+	width: 9px;
+	height: 9px;
+	background: #000000;
+	left: -75px;
+	top: 50%;
+	margin-top: -4px
+}
+
+.main-ywxq .list li:after {
+	width: 57px;
+	height: 1px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img4.jpg") repeat-x;
+	left: -65px;
+	top: 50%
+}
+
+.main-ywxq .list .text {
+	font-size: 16px;
+	line-height: 2;
+	color: rgba(0,0,0,0.7)
+}
+
+.main-ywxq .list .btn {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	line-height: 50px;
+	width: 220px;
+	height: 50px;
+	color: #ffffff;
+	background: #306eb7;
+	font-size: 26px;
+	transition: .2s
+}
+
+.main-ywxq .list .btn:hover {
+	box-shadow: 4px 1px 10px rgba(0,0,0,0.5)
+}
+
+.main-ywxq .links {
+	line-height: 73px;
+	position: relative;
+	z-index: 99
+}
+
+.main-ywxq .links .page {
+	float: right
+}
+
+.main-ywxq .links .page a {
+	transition: 0.5s;
+	font-size: 14px;
+	color: #666666
+}
+
+.main-ywxq .links .page span {
+	margin: 0 10px
+}
+
+.main-ywxq .links .page a:hover {
+	color: #306eb7
+}
+
+.case-list ul {
+	height: auto;
+	overflow: hidden;
+	width: 100%
+}
+
+.case-list li {
+	width: 33.3333%;
+	float: left;
+	background-position: 50% 50%;
+	background-size: cover;
+	position: relative;
+	overflow: hidden
+}
+
+.case-list li a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative
+}
+
+.case-list li a:before {
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255,255,255,0.95);
+	z-index: 99;
+	content: '';
+	opacity: 0;
+	filter: alpha(opacity=0);
+	transition: 0.5s
+}
+
+.case-list li .img {
+	width: 100%;
+	height: 100%
+}
+
+.case-list li .logo {
+	max-width: 80%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: 9999;
+	transition: 0.7s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-40%, -50%);
+	-ms-transform: translate(-40%, -50%);
+	transform: translate(-40%, -50%)
+}
+
+.case-list li:hover a:before {
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+
+.case-list li:hover .logo {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+
+.md-contact {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0
+}
+
+.md-contact .left-texts {
+	width: 415px;
+	float: left;
+	background: #ffffff;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	overflow-y: auto
+}
+
+.md-contact .left-texts .submit {
+	text-align: center;
+	cursor: pointer;
+	line-height: 42px;
+	margin: 35px auto;
+	width: 172px;
+	height: 42px;
+	border-radius: 21px;
+	background: #2fad38;
+	color: #fff;
+	font-size: 20px
+}
+
+.md-contact .left-texts .submit .icon {
+	background: url("http://www.sino-web.net/Public/home/imgs/img65.png") no-repeat center;
+	position: relative;
+	top: 3px;
+	margin-right: 5px;
+	width: 19px;
+	height: 21px;
+	display: inline-block
+}
+
+.md-contact .left-texts .submit:hover {
+	background: #2b9532
+}
+
+.md-contact .left-texts .com-list li {
+	cursor: pointer;
+	text-align: center;
+	background: #f5f5f5;
+	border-bottom: 1px solid #e0e0e0;
+	transition: 0.5s
+}
+
+.md-contact .left-texts .com-list li h3 {
+	transition: 0.5s;
+	height: 57px;
+	line-height: 56px;
+	color: #b0b0b0;
+	font-size: 16px
+}
+
+.md-contact .left-texts .com-list li b {
+	transition: 0.5s;
+	color: #000000;
+	font-size: 22px;
+	font-weight: normal
+}
+
+.md-contact .left-texts .com-list .txt {
+	display: none
+}
+
+.md-contact .left-texts .com-list li.active {
+	background: none;
+	padding-top: 45px;
+	padding-bottom: 30px
+}
+
+.md-contact .left-texts .com-list li.active h3,.md-contact .left-texts .com-list li.active b {
+	font-size: 24px;
+	color: #306eb7
+}
+
+.md-contact .left-texts .com-list li.active h3 {
+	position: relative;
+	padding-bottom: 15px
+}
+
+.md-contact .left-texts .com-list li.active h3:before {
+	width: 48px;
+	height: 1px;
+	display: inline-block;
+	background: #306eb7;
+	bottom: 0;
+	content: '';
+	position: absolute;
+	left: 50%;
+	margin-left: -24px
+}
+
+.md-contact .left-texts .com-list li.active .txt {
+	padding: 0 44px;
+	display: block;
+	margin-top: 19px;
+	font-size: 14px;
+	line-height: 22px;
+	color: rgba(0,0,0,0.7)
+}
+
+.md-contact .right-map {
+	position: absolute;
+	left: 415px;
+	top: 0;
+	bottom: 0;
+	right: 0
+}
+
+.md-contact .right-map img {
+	width: 100%;
+	height: 100%
+}
+
+.md-contact .contact {
+	height: 250px;
+	padding-top: 58px;
+	padding-left: 40px
+}
+
+.md-contact .contact .wx {
+	text-align: center;
+	width: 120px;
+	float: left
+}
+
+.md-contact .contact .wx img {
+	border: 3px solid #ededed;
+	width: 110px;
+	height: 110px
+}
+
+.md-contact .contact .wx h3 {
+	font-size: 14px;
+	color: #000000;
+	margin-top: 10px
+}
+
+.md-contact .contact .txt {
+	width: 200px;
+	margin-left: 18px;
+	float: left;
+	text-align: center;
+	padding-top: 25px
+}
+
+.md-contact .contact .txt h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #2fad38
+}
+
+.md-contact .contact .txt h3 img {
+	position: relative;
+	top: -3px;
+	margin-right: 3px
+}
+
+.md-contact .contact .txt p {
+	margin-top: 12px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #878787;
+	width: 195px
+}
+
+.md-contact .account {
+	background: #f5f5f5;
+	padding: 35px 0;
+	padding-left: 40px;
+	font-size: 14px;
+	color: #000000;
+	line-height: 25px
+}
+
+.md-contact .account dd {
+	margin-bottom: 20px
+}
+
+.md-contact .account dd:last-child {
+	margin-bottom: 0
+}
+
+.modal {
+	display: none;
+	overflow-x: hidden;
+	padding-top: 100px;
+	overflow-y: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 80px;
+	background: rgba(0,0,0,0.95);
+	right: 0;
+	z-index: 99
+}
+
+.modal .close {
+	cursor: pointer;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	position: absolute;
+	top: -100px;
+	right: -100px;
+	background: #353b3e
+}
+
+.modal .close::before {
+	position: fixed;
+	content: '';
+	background: url("http://www.sino-web.net/Public/home/imgs/close.png") no-repeat center;
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top: 125px;
+	left: 45px
+}
+
+.modal .head {
+	text-align: center;
+	margin-bottom: 40px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold
+}
+
+.modal .head b {
+	font-size: 36px
+}
+
+.modal .body {
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.modal .text {
+	width: 100%;
+	color: #fff;
+	background: transparent;
+	height: 42px
+}
+
+.modal .item {
+	font-size: 14px;
+	line-height: 42px;
+	margin-bottom: 30px;
+	margin-right: 50px;
+	width: 420px;
+	float: left;
+	border-bottom: 1px solid #1e2528
+}
+
+.modal .item2 {
+	width: 900px;
+	position: relative;
+	color: #929292
+}
+
+.modal .item2 em {
+	font-size: 14px;
+	color: #273035;
+	position: absolute;
+	right: 10px;
+	bottom: 10px
+}
+
+.modal .item2 span {
+	color: #273035
+}
+
+.modal ul {
+	height: auto;
+	overflow: hidden;
+	width: 110%
+}
+
+.modal .textarea {
+	height: 115px;
+	line-height: 1.6;
+	overflow: hidden
+}
+
+.modal .input {
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	float: right;
+	width: 80px;
+	position: relative;
+	height: 30px;
+	background: #202729;
+	color: #999a99;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px
+}
+
+.modal .input input {
+	width: 100%;
+	height: 100%;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	z-index: 9;
+	opacity: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0
+}
+
+.modal .yzm {
+	float: left
+}
+
+.modal .item3 {
+	width: 900px;
+	border-bottom: none
+}
+
+.modal .item3 .text2 {
+	float: left;
+	border-bottom: 1px solid #1e2528;
+	width: 263px
+}
+
+.modal .item3 span {
+	color: #fff
+}
+
+.modal .submit {
+	float: right;
+	font-size: 18px;
+	width: 420px;
+	height: 50px;
+	border-radius: 25px;
+	line-height: 50px;
+	background: #2fad38;
+	text-align: center;
+	color: #fff
+}
+
+.modal .submit:hover {
+	background: #27be32
+}
+
+.gotop {
+	width: 55px;
+	z-index: 9999;
+	opacity: 0;
+	height: 55px;
+	background: #306eb7 url("http://www.sino-web.net/Public/home/imgs/img13.png") no-repeat center;
+	cursor: pointer;
+	position: fixed;
+	right: 0;
+	transition: 0.5s;
+	bottom: 33px
+}
+
+.gotop.gotop2 {
+	opacity: 1
+}
+
+#allmap {
+	height: 100%;
+	width: 100%;
+	overflow: hidden
+}
+
+.BMapLib_nav_tab_content li {
+	padding: 0 !important;
+	height: auto
+}
+
+#BMapLib_searchBox0,#BMapLib_transBox0 {
+	padding: 10px !important
+}
+
+#BMapLib_transBox0 tr td:last-child {
+	width: 138px
+}
+
+#BMapLib_transBox0 tr td:first-child {
+	width: 60px
+}
+
+.BMapLib_trans_text {
+	width: 98%
+}
+
+#allmap img {
+	width: auto;
+	height: auto
+}
+
+#result {
+	width: 100%;
+	font-size: 12px
+}
+
+.BMapLib_ap input {
+	border: 1px solid #ddd
+}
+
+.BMapLib_SearchInfoWindow ul {
+	width: 105%
+}
+
+.BMapLib_SearchInfoWindow .BMapLib_nav {
+	overflow: hidden
+}
+
+.BMapLib_bubble_content img {
+	display: none
+}
+
+.BMapLib_SearchInfoWindow .BMapLib_bubble_content {
+	padding: 0 !important
+}
+
+.BMapLib_bubble_top {
+	border-bottom: none !important;
+	background: url("../img/mapImg.jpg") no-repeat;
+	height: 150px !important;
+	background-size: cover
+}
+
+.BMapLib_bubble_title {
+	display: none
+}
+
+.BMapLib_SearchInfoWindow .BMapLib_bubble_tools div {
+	background-color: transparent !important
+}
+
+.BMapLib_bubble_content {
+	height: auto !important
+}
+
+.BMapLib_SearchInfoWindow .BMapLib_bubble_close {
+	background: url("http://www.sino-web.net/Public/home/imgs/img21.png") no-repeat center !important
+}
+
+.map-content .addr {
+	padding: 0 10px;
+	background: #383840;
+	color: #ffffff;
+	line-height: 35px;
+	height: 35px
+}
+
+#allmap dl,dt,dd,ul,li {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+#allmap dt {
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px dotted #000;
+	padding: 5px 0 5px 5px;
+	margin: 5px 0
+}
+
+#allmap dd {
+	padding: 5px 0 0 5px
+}
+
+.case-intro {
+	margin-bottom: 33px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 1053px
+}
+
+.case-intro .gb-aside {
+	left: -100px;
+	bottom: 0
+}
+
+.case-intro .case-call {
+	position: absolute;
+	top: 33px;
+	right: 40px;
+	z-index: 999;
+	background: url("http://www.sino-web.net/Public/home/imgs/img39.png") no-repeat left center;
+	padding-left: 85px;
+	font-size: 45px;
+	font-weight: bold;
+	color: #ffffff
+}
+
+.case-intro .case-section .case {
+	margin-top: 30px
+}
+
+.case-intro .top-btn {
+	transition: 0.5s;
+	position: fixed;
+	top: 14px;
+	left: 14px;
+	z-index: 99
+}
+
+.case-intro .top-btn a {
+	width: 54px;
+	height: 54px;
+	display: inline-block
+}
+
+.case-intro .top-btn .home {
+	background: url("http://www.sino-web.net/Public/home/imgs/img23.png") no-repeat
+}
+
+.case-intro .top-btn .nav-btn {
+	background: url("http://www.sino-web.net/Public/home/imgs/img22.png") no-repeat;
+	margin-left: -4px
+}
+
+.case-intro .top-btn.active {
+	left: 60px
+}
+
+.case-intro .case-pager {
+	position: relative;
+	z-index: 999
+}
+
+.case-intro .case-prev,.case-intro .case-next {
+	z-index: 999;
+	transition: 0.5s;
+	display: inline-block;
+	background: url("http://www.sino-web.net/Public/home/imgs/img24.png") no-repeat;
+	width: 51px;
+	height: 51px;
+	position: fixed;
+	bottom: 80px
+}
+
+.case-intro .case-prev {
+	left: 75px
+}
+
+.case-intro .case-prev:hover {
+	left: 65px
+}
+
+.case-intro .case-next {
+	right: 55px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img25.png") no-repeat
+}
+
+.case-intro .case-next:hover {
+	right: 45px
+}
+
+.case-intro .case-back {
+	transition: 0.5s;
+	padding-right: 48px;
+	height: 50px;
+	display: block;
+	border-radius: 25px;
+	background: rgba(255,255,255,0.95);
+	position: fixed;
+	bottom: 80px;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	transform: translate(-50%, 0)
+}
+
+.case-intro .case-back .ico {
+	transition: 0.5s;
+	position: absolute;
+	right: -1px;
+	top: 0;
+	width: 51px;
+	height: 51px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img26.png") no-repeat
+}
+
+.case-intro .case-back .txt {
+	transition: 0.5s;
+	width: 0;
+	overflow: hidden;
+	text-align: center;
+	height: 50px;
+	font-size: 16px;
+	color: #000000;
+	line-height: 51px
+}
+
+.case-intro .case-pager.active .case-prev {
+	left: -100px;
+	opacity: 0
+}
+
+.case-intro .case-pager.active .case-next {
+	right: -100px;
+	opacity: 0
+}
+
+.case-intro .case-pager.active .case-back {
+	bottom: -100px;
+	opacity: 0
+}
+
+.case-intro .top-desc {
+	padding-bottom: 100px;
+	transition: 0.2s
+}
+
+.case-intro .top-desc .arrow {
+	cursor: pointer;
+	position: absolute;
+	z-index: 99;
+	bottom: 20px;
+	left: 50%;
+	width: 30px;
+	margin-left: -15px
+}
+
+.case-intro .top-desc .arrow:before,.case-intro .top-desc .arrow:after {
+	transition: 0.3s;
+	background: url("http://www.sino-web.net/Public/home/imgs/img72.png") center no-repeat;
+	width: 25px;
+	height: 14px;
+	content: '';
+	display: inline-block
+}
+
+.case-intro .top-desc .arrow:after {
+	-webkit-animation: arrow 3s ease-out 500ms infinite;
+	animation: arrow 3s ease-out 500ms infinite
+}
+
+.case-intro .top-desc .arrow:before {
+	-webkit-animation: arrow 3s ease-out 1s infinite;
+	animation: arrow 3s ease-out 1s infinite
+}
+
+.case-intro .top-desc .box {
+	text-align: center;
+	transition: 0.2s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -70px;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+
+.case-intro .case-back:hover .txt {
+	width: 170px
+}
+
+.case-intro .case-back:hover .ico {
+	-webkit-transform: rotate(720deg);
+	-ms-transform: rotate(720deg);
+	transform: rotate(720deg)
+}
+
+.bd_weixin_popup {
+	padding: 5px !important
+}
+
+.case-section {
+	overflow: hidden;
+	position: relative
+}
+
+.case-section>div {
+	position: relative;
+	z-index: 2
+}
+
+.case-section .share {
+	margin-right: 2%;
+	margin-top: 20px;
+	text-align: center
+}
+
+.case-section .share .bdsharebuttonbox {
+	text-align: center
+}
+
+.case-section .share a {
+	float: none;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	background-image: url(http://www.sino-web.net/Public/home/imgs/img32.png);
+	transition: 0.5s;
+	background-repeat: no-repeat;
+	background-position: 0 -35px
+}
+
+.case-section .share .qq {
+	background-position: -92px -35px
+}
+
+.case-section .share .qq:hover {
+	background-position: -92px 0
+}
+
+.case-section .share .wb {
+	background-position: 0 -35px
+}
+
+.case-section .share .wx {
+	background-position: -46px -35px
+}
+
+.case-section .share a:hover {
+	background-position: 0 0
+}
+
+.case-section .share .wb:hover {
+	background-position: 0 0
+}
+
+.case-section .share .wx:hover {
+	background-position: -46px 0
+}
+
+.case-section .top-desc {
+	z-index: 1;
+	transition: 0.2s;
+	height: 600px;
+	padding-top: 175px;
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	top: 0;
+	left: 80px;
+	right: 0
+}
+
+.case-section .top-desc em {
+	opacity: 0;
+	background: #000;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99
+}
+
+.case-section .logo {
+	text-align: center
+}
+
+.case-section .logo span {
+	text-shadow: 0 4px 5px rgba(0,0,0,0.3)
+}
+
+.case-section .tag {
+	margin: 0 auto;
+	display: inline-block;
+	margin-top: 65px;
+	border-radius: 5px;
+	width: auto;
+	padding: 0 35px;
+	line-height: 56px;
+	font-size: 22px;
+	color: #ffffff;
+	height: 56px;
+	background: #2fad38;
+	text-align: center
+}
+
+.case-section b {
+	margin: 0 18px
+}
+
+.case-section .link {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 22px
+}
+
+.case-section .link a {
+	color: #ffffff;
+	text-shadow: 0 5px 5px rgba(0,0,0,0.5)
+}
+
+.case-section .big {
+	position: relative;
+	z-index: 9;
+	overflow: hidden;
+	background: url("http://www.sino-web.net/Public/home/imgs/img28.png") no-repeat;
+	width: 1042px;
+	height: 1042px;
+	margin: 0 auto;
+	margin-top: 90px;
+	margin-bottom: 157px
+}
+
+.case-section .big .img {
+	height: 540px;
+	width: 955px;
+	margin: 0 auto;
+	margin-top: 42px
+}
+
+.case-section .big .img img {
+	width: 100%;
+	height: 100%
+}
+
+.case-section .detal {
+	border-top: 1px solid #EEEEEE;
+	padding-top: 120px;
+	padding-bottom: 90px;
+	background: #f9f9f9;
+	font-size: 14px
+}
+
+.case-section .detal h3 {
+	font-size: 36px;
+	color: #666666;
+	margin-bottom: 10px
+}
+
+.case-section .detal p {
+	line-height: 30px;
+	color: #666666
+}
+
+.case-section .frame {
+	transition: 0.5s;
+	background: #282936;
+	padding-top: 0;
+	overflow: hidden
+}
+
+.case-section .frame .wrap {
+	position: relative
+}
+
+.case-section .frame .head {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 468px;
+	text-align: center;
+	margin-bottom: 75px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #5F5F68;
+	position: relative
+}
+
+.case-section .frame .head:before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 90px;
+	margin-left: -45px;
+	bottom: 0;
+	left: 50%;
+	background: #dddddd;
+	height: 4px
+}
+
+.case-section .frame .head h3 {
+	font-size: 40px;
+	color: #cdcdcd
+}
+
+.case-section .frame .body {
+	text-align: center
+}
+
+.case-section .frame .slide-img {
+	transition: 0.5s
+}
+
+.case-section .frame .slide-title {
+	color: #fff;
+	width: 22px;
+	text-align: center;
+	right: -30px;
+	position: absolute;
+	top: 155px
+}
+
+.case-section .frame .slide-title span {
+	display: block
+}
+
+.case-section .frame .slide-title .prev {
+	margin-bottom: 15px;
+	background: url(http://www.sino-web.net/Public/home/imgs/img63.png) center no-repeat;
+	display: inline-block
+}
+
+.case-section .frame .slide-title .prev,.case-section .frame .slide-title .next {
+	cursor: pointer;
+	width: 33px;
+	height: 42px
+}
+
+.case-section .frame .slide-title .next {
+	width: 22px;
+	margin-top: 5px;
+	background: url(http://www.sino-web.net/Public/home/imgs/img64.png) center no-repeat
+}
+
+.case-section .frame .slide-title ul {
+	margin-top: 8px
+}
+
+.case-section .frame .slide-title li {
+	transition: 0.5s;
+	display: none;
+	position: relative;
+	font-size: 16px;
+	line-height: 26px;
+	color: #ffffff;
+	cursor: pointer
+}
+
+.case-section .frame .slide-title li.active {
+	display: block
+}
+
+.case-section .slide {
+	overflow: hidden;
+	text-align: center;
+	height: 200px;
+	background: #21222d;
+	margin-top: 50px;
+	margin-bottom: 75px
+}
+
+.case-section .slide .slide-box {
+	display: inline-block;
+	margin: 0 13px;
+	margin-top: 35px
+}
+
+.case-section .slide .slide-box .item {
+	position: relative;
+	transition: 0.5s;
+	border: 3px solid transparent;
+	display: inline-block;
+	width: 75px;
+	margin: 0 13px;
+	height: 122px;
+	overflow: hidden
+}
+
+.case-section .slide .slide-box .item:before {
+	transition: 0.5s;
+	position: absolute;
+	content: '';
+	display: inline-block;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.5)
+}
+
+.case-section .slide .slide-box .item.active {
+	border: 3px solid #2FAD38
+}
+
+.case-section .slide .slide-box .item.active:before {
+	opacity: 0
+}
+
+.case-section .slide .prev,.case-section .slide .next {
+	display: inline-block;
+	cursor: pointer;
+	background: url("http://www.sino-web.net/Public/home/imgs/img34.png") center no-repeat;
+	transition: 0.5s;
+	width: 27px;
+	height: 122px
+}
+
+.case-section .slide .prev {
+	margin-right: 50px
+}
+
+.case-section .slide .prev:hover {
+	-webkit-transform: translate(-10px);
+	-ms-transform: translate(-10px);
+	transform: translate(-10px)
+}
+
+.case-section .slide .next {
+	margin-left: 50px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img35.png") center no-repeat
+}
+
+.case-section .slide .next:hover {
+	-webkit-transform: translate(10px);
+	-ms-transform: translate(10px);
+	transform: translate(10px)
+}
+
+.case-section .btn {
+	text-align: center;
+	margin-top: 55px
+}
+
+.case-section .btn a {
+	display: inline-block;
+	width: 342px;
+	height: 73px;
+	text-align: center;
+	font-size: 30px;
+	color: #ffffff;
+	line-height: 73px;
+	padding-left: 30px;
+	border-radius: 40px;
+	background: #2FAD38 url(http://www.sino-web.net/Public/home/imgs/img36.png) 65px 50% no-repeat
+}
+
+.case-section .case {
+	border-top: 1px solid #383944;
+	margin-top: 140px
+}
+
+.case-section .case-slide {
+	position: relative
+}
+
+.case-section .case-slide .item {
+	position: relative;
+	display: block
+}
+
+.case-section .case-slide .item .bigimg {
+	width: 100%;
+	height: 100%
+}
+
+.case-section .case-slide .item:before {
+	transition: 0.5s;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	background: rgba(255,255,255,0.95);
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0
+}
+
+.case-section .case-slide .item .logo {
+	transition: 0.7s;
+	opacity: 0;
+	max-width: 80%;
+	position: absolute;
+	margin-top: 0;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-40%, -50%);
+	-ms-transform: translate(-40%, -50%);
+	transform: translate(-40%, -50%)
+}
+
+.case-section .case-slide .item:hover:before {
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+
+.case-section .case-slide .item:hover .logo {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+
+.case-section .owl-prev,.case-section .owl-next {
+	z-index: 99;
+	top: 50%;
+	position: absolute;
+	left: 40px;
+	background: url("http://www.sino-web.net/Public/home/imgs/img37.png") no-repeat;
+	width: 52px;
+	height: 52px;
+	margin-top: -25px
+}
+
+.case-section .owl-next {
+	right: 40px;
+	left: auto;
+	background: url("http://www.sino-web.net/Public/home/imgs/img38.png") no-repeat
+}
+
+.index-fixed {
+	z-index: 999;
+	position: fixed;
+	top: 30px;
+	right: 15px
+}
+
+.index-fixed li {
+	margin-bottom: 12px
+}
+
+.index-fixed .icon {
+	text-align: center;
+	line-height: 65px;
+	transition: 0.5s;
+	background: #7F786A;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	display: block
+}
+
+.index-fixed li:hover .icon {
+	background: #2fad38
+}
+
+.gb-contact {
+	z-index: 9999;
+	right: 10px;
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%)
+}
+
+.gb-contact li {
+	margin-bottom: 10px;
+	height: 60px;
+	width: 60px;
+	transition: 0.5s;
+	position: relative
+}
+
+.gb-contact .txt {
+	position: absolute;
+	right: 0;
+	height: 60px;
+	overflow: hidden;
+	transition: 0.5s;
+	width: 60px;
+	line-height: 60px;
+	font-size: 16px;
+	color: #ffffff;
+	padding-right: 60px;
+	text-align: center;
+	background: rgba(48,110,183,0.8);
+	border-radius: 60px
+}
+
+.gb-contact .ico {
+	transition: 0.5s;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	background-image: url("../img/icon.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	border-radius: 60px
+}
+
+.gb-contact .ico-phone {
+	background-position: 0 -70px
+}
+
+.gb-contact .ico-sc {
+	background-position: 0 -140px
+}
+
+.gb-contact .ico-cx {
+	background-position: 0 -210px
+}
+
+.gb-contact .ico-zx {
+	background-position: 0 -280px
+}
+
+.gb-contact li:hover .txt {
+	width: 168px
+}
+
+.gb-contact li:hover .ico {
+	background-color: #306eb7
+}
+
+.gb-contact li:hover .ico-pc {
+	background-position: -90px 0
+}
+
+.gb-contact li:hover .ico-phone {
+	background-position: -90px -70px
+}
+
+.gb-contact li:hover .ico-sc {
+	background-position: -90px -140px
+}
+
+.gb-contact li:hover .ico-cx {
+	background-position: -90px -210px
+}
+
+.gb-contact li:hover .ico-zx {
+	background-position: -90px -280px
+}
+
+@media screen and (max-width: 1450px) {
+	.case-section .tag {
+		margin-top: 40px
+	}
+
+	.case-section .big {
+		margin-top: 45px;
+		margin-bottom: 100px
+	}
+
+	.case-section .logo img {
+		max-height: 120px
+	}
+
+	.case-section .frame .head h3 {
+		font-size: 32px
+	}
+
+	.case-section .btn a {
+		-webkit-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8)
+	}
+
+	.case-section .detal h3 {
+		font-size: 30px
+	}
+
+	.case-section .detal {
+		padding-top: 80px;
+		padding-bottom: 50px
+	}
+
+	.case-section .frame .wrap {
+		width: 980px
+	}
+
+	.case-intro .case-call {
+		font-size: 38px;
+		height: 60px;
+		line-height: 60px
+	}
+
+	.case-section .frame .head {
+		margin-top: 60px
+	}
+}
+
+@media (max-width: 1460px) {
+	.main-about .section3 .body {
+		height: 500px
+	}
+
+	.case-intro .top-desc .arrow {
+		bottom: 150px
+	}
+
+	.main-slide .right-texts .texts h3 {
+		font-size: 40px
+	}
+
+	.main-slide .right-texts li h3 span {
+		font-size: 22px
+	}
+
+	.main-slide .right-texts li p {
+		font-size: 16px;
+		line-height: 1.8;
+		height: 150px
+	}
+
+	.main-slide .items dd {
+		margin-right: 15px
+	}
+
+	.main-slide .items {
+		width: 480px
+	}
+
+	.gb-aside .nav li {
+		height: 90px
+	}
+
+	.gb-aside .nav .icon {
+		margin-top: 20px
+	}
+
+	.gb-aside {
+		width: 60px
+	}
+
+	.case-section .top-desc {
+		left: 60px
+	}
+
+	.modal {
+		left: 60px
+	}
+
+	.gb-aside .nav li:hover .slide-nav {
+		left: 60px
+	}
+
+	.main-content {
+		padding-left: 60px
+	}
+
+	.gb-aside .logo {
+		bottom: 10px
+	}
+
+	.gb-aside .logo img {
+		width: 35px
+	}
+
+	#main {
+		margin-left: 60px
+	}
+
+	.main-slide .right-texts .texts h3 {
+		margin-bottom: 25px
+	}
+
+	.main-slide {
+		margin-left: 60px
+	}
+
+	.main-slide .items {
+		bottom: 50px
+	}
+
+	.gb-aside .home {
+		height: 60px
+	}
+
+	.gb-aside .home .icon-home {
+		margin-top: 12px
+	}
+
+	.main-index .content a {
+		font-size: 16px
+	}
+
+	.main-index .index-item .title {
+		height: 90px;
+		line-height: 90px
+	}
+
+	.main-index .index-item .title a {
+		font-size: 22px
+	}
+
+	.main-index .index-item .title:before {
+		top: 65px
+	}
+
+	.main-index .index-item .title:hover:before {
+		top: 70px
+	}
+
+	.main-index .content li {
+		height: 65px;
+		line-height: 65px
+	}
+
+	.main-index .content .icon {
+		left: 0;
+		-webkit-transform: scale(0.7);
+		-ms-transform: scale(0.7);
+		transform: scale(0.7);
+		height: 65px
+	}
+
+	.main-index .content li:hover .icon {
+		-webkit-transform: scale(0.7) rotateY(180deg);
+		transform: scale(0.7) rotateY(180deg)
+	}
+
+	.main-index .index-item .content {
+		height: 155px
+	}
+
+	.main-index .index-item .img {
+		bottom: 155px
+	}
+
+	.index-fixed ul {
+		-webkit-transform: scale(0.7);
+		-ms-transform: scale(0.7);
+		transform: scale(0.7)
+	}
+
+	.main-index .content .item1 a,.main-index .content .item3 a {
+		margin-right: 5px
+	}
+
+	.main-index .content .item2 a,.main-index .content .item4 a {
+		margin-left: 5px
+	}
+
+	.main-news.fixd-2 .item2,.main-news.fixd-3 .item3,.main-news.fixd-4 .item4 {
+		left: 60px
+	}
+
+	.main-about .section {
+		background-size: auto
+	}
+
+	.main-about .section2 .left-text {
+		padding-left: 20px
+	}
+
+	.main-about .section3 .left {
+		width: 310px;
+		margin-left: 20px;
+		line-height: 1.7
+	}
+
+	.main-about .section3 .wrap {
+		height: 550px;
+		margin-top: -255px
+	}
+
+	.main-about .section3 .left .case {
+		margin-top: 50px
+	}
+
+	.main-about .section3 .left .num {
+		margin-top: 15px
+	}
+
+	.main-news2 {
+		padding-top: 50px
+	}
+
+	.main-news2 .right-list {
+		width: 1090px
+	}
+
+	.main-news2 .right-list .con a {
+		width: 520px;
+		margin-right: 30px
+	}
+
+	.main-index .txt .h3 {
+		font-size: 28px
+	}
+
+	.main-index .txt .h4 {
+		font-size: 14px
+	}
+
+	.main-news.fixed-4 .item4,.main-news.fixed-3 .item3,.main-news.fixed-2 .item2 {
+		left: 60px
+	}
+}
+
+.contac-fexid {
+	background: rgba(0,0,0,0.5);
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99
+}
+
+.contac-fexid .contac-box {
+	transition: 0.5s;
+	-webkit-perspective: 500;
+	perspective: 500;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -215px;
+	width: 430px;
+	height: 242px;
+	margin-top: -121px;
+	background: rgba(0,223,46,0.85);
+	border-radius: 5px
+}
+
+.contac-fexid .contac-box:before {
+	content: '';
+	position: absolute;
+	display: inline-block;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	right: 6px;
+	top: 6px;
+	bottom: 6px;
+	left: 6px
+}
+
+.contac-fexid .contac-box .close {
+	transition: 0.5s;
+	background: url("http://www.sino-web.net/Public/home/imgs/img88.png") center no-repeat;
+	position: absolute;
+	right: 16px;
+	top: 16px;
+	width: 20px;
+	height: 20px;
+	display: inline-block
+}
+
+.contac-fexid .contac-box .close:hover {
+	cursor: pointer;
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg)
+}
+
+.contac-fexid .contac-box .text {
+	margin-top: 38px;
+	margin-left: 54px;
+	margin-right: 54px
+}
+
+.contac-fexid .contac-box p {
+	font-size: 14px;
+	line-height: 28px;
+	color: #ffffff
+}
+
+.contac-fexid .contac-box h3 {
+	text-align: center;
+	font-size: 50px;
+	color: #ffffff;
+	font-weight: bold
+}
+
+.contac-fexid .contac-box ul {
+	background: #eeeeee;
+	border-radius: 0 0 5px 5px;
+	height: 58px;
+	position: absolute;
+	bottom: 6px;
+	right: 6px;
+	left: 6px
+}
+
+.contac-fexid .contac-box li {
+	font-size: 18px;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	line-height: 58px;
+	border-right: 1px solid rgba(33,177,63,0.6)
+}
+
+.contac-fexid .contac-box li .icon {
+	width: 26px;
+	height: 22px;
+	display: inline-block;
+	position: relative;
+	top: 3px;
+	margin-right: 4px
+}
+
+.contac-fexid .contac-box li .icon1 {
+	background: url("http://www.sino-web.net/Public/home/imgs/img85.png") center no-repeat
+}
+
+.contac-fexid .contac-box li .icon2 {
+	background: url("http://www.sino-web.net/Public/home/imgs/img86.png") center no-repeat
+}
+
+.contac-fexid .contac-box li .icon3 {
+	background: url("http://www.sino-web.net/Public/home/imgs/img87.png") center no-repeat
+}
+
+.contac-fexid .contac-box li a {
+	display: block;
+	color: #21b13f
+}
+
+.contac-fexid .contac-box li:hover .icon {
+	-webkit-animation: bounce-down 1s ease-out infinite;
+	animation: bounce-down 1s ease-out infinite
+}
+
+@-webkit-keyframes bounce-down {
+	25% {
+		-webkit-transform: translateY(-3px);
+		transform: translateY(-3px)
+	}
+
+	50%,
+    100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+
+	75% {
+		-webkit-transform: translateY(3px);
+		transform: translateY(3px)
+	}
+}
+
+@keyframes bounce-down {
+	25% {
+		-webkit-transform: translateY(-3px);
+		transform: translateY(-3px)
+	}
+
+	50%,
+    100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+
+	75% {
+		-webkit-transform: translateY(3px);
+		transform: translateY(3px)
+	}
+}
+
+@media screen and (min-height: 800px) {
+	.gb-aside .nav li {
+		height: 100px
+	}
+}
+
+@media screen and (max-height: 800px) {
+	.gb-aside .nav li {
+		height: 80px
+	}
+}
+
+@media screen and (max-height: 700px) {
+	.gb-aside .nav li {
+		height: 75px
+	}
+
+	.gb-aside .nav .icon {
+		margin-top: 10px
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.case-intro .top-desc .arrow {
+		bottom: 200px
+	}
+
+	.gb-aside .nav .icon,.gb-aside .home .icon-home {
+		-webkit-transform: scale(0.7);
+		-ms-transform: scale(0.7);
+		transform: scale(0.7)
+	}
+
+	.gb-aside .nav .icon {
+		margin-top: 5px
+	}
+
+	.gb-aside .nav li {
+		height: 65px
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.gb-aside .nav li {
+		height: 70px
+	}
+
+	.gb-aside .nav .icon {
+		margin-top: 8px
+	}
+}
+
+@media (min-width: 1900px) {
+	.case-intro .top-desc .arrow {
+		bottom: 60px
+	}
+
+	.main-about .section1 .list {
+		margin-top: 50px;
+		padding-top: 50px
+	}
+
+	.main-about .wrap {
+		width: 1340px;
+		height: auto;
+		overflow: visible
+	}
+}
+
+@-webkit-keyframes ripple {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0.1);
+		transform: scale(0.1)
+	}
+
+	5% {
+		opacity: 1
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
+
+@keyframes ripple {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0.1);
+		transform: scale(0.1)
+	}
+
+	5% {
+		opacity: 1
+	}
+
+	to {
+		opacity: 0;
+		-webkit-transform: scale(1);
+		transform: scale(1)
+	}
+}
+
+@-webkit-keyframes arrow {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+
+	50% {
+		opacity: 1;
+		-webkit-transform: translateY(10px);
+		transform: translateY(10px)
+	}
+
+	to {
+		opacity: 0
+	}
+}
+
+@keyframes arrow {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+
+	50% {
+		opacity: 1;
+		-webkit-transform: translateY(10px);
+		transform: translateY(10px)
+	}
+
+	to {
+		opacity: 0
+	}
+}
+
+.mCSB_container {
+	width: auto;
+	margin-right: 30px;
+	overflow: hidden
+}
+
+.mCSB_container.mCS_no_scrollbar {
+	margin-right: 0
+}
+
+.mCS_disabled>.mCustomScrollBox>.mCSB_container.mCS_no_scrollbar,.mCS_destroyed>.mCustomScrollBox>.mCSB_container.mCS_no_scrollbar {
+	margin-right: 30px
+}
+
+.mCustomScrollBox>.mCSB_scrollTools {
+	width: 16px;
+	height: 100%;
+	top: 0;
+	right: 0
+}
+
+.mCSB_scrollTools .mCSB_draggerContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: auto
+}
+
+.mCSB_scrollTools a+.mCSB_draggerContainer {
+	margin: 20px 0
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+	width: 2px;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 10px
+}
+
+.mCSB_scrollTools .mCSB_dragger {
+	cursor: pointer;
+	width: 100%;
+	height: 30px
+}
+
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 4px;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center
+}
+
+.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_buttonDown {
+	display: block;
+	position: relative;
+	height: 20px;
+	overflow: hidden;
+	margin: 0 auto;
+	cursor: pointer
+}
+
+.mCSB_scrollTools .mCSB_buttonDown {
+	top: 100%;
+	margin-top: -40px
+}
+
+.mCSB_horizontal>.mCSB_container {
+	height: auto;
+	margin-right: 0;
+	margin-bottom: 30px;
+	overflow: hidden
+}
+
+.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar {
+	margin-bottom: 0
+}
+
+.mCS_disabled>.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar,.mCS_destroyed>.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar {
+	margin-right: 0;
+	margin-bottom: 30px
+}
+
+.mCSB_horizontal.mCustomScrollBox>.mCSB_scrollTools {
+	width: 100%;
+	height: 16px;
+	top: auto;
+	right: auto;
+	bottom: 0;
+	left: 0;
+	overflow: hidden
+}
+
+.mCSB_horizontal>.mCSB_scrollTools a+.mCSB_draggerContainer {
+	margin: 0 20px
+}
+
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 100%;
+	height: 2px;
+	margin: 7px 0;
+	border-radius: 10px
+}
+
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger {
+	width: 30px;
+	height: 100%
+}
+
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 100%;
+	height: 4px;
+	margin: 6px auto;
+	border-radius: 10px
+}
+
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_horizontal>.mCSB_scrollTools .mCSB_buttonRight {
+	display: block;
+	position: relative;
+	width: 20px;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	cursor: pointer;
+	float: left
+}
+
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_buttonRight {
+	margin-left: -40px;
+	float: right
+}
+
+.mCustomScrollBox {
+	-ms-touch-action: none
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_draggerRail {
+	background: #000;
+	background: rgba(0,0,0,0.15)
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background: #000;
+	background: rgba(0,0,0,0.75)
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.85)
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-dark>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.9)
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -80px 0
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -80px -20px
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonLeft {
+	background-position: -80px -40px
+}
+
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonRight {
+	background-position: -80px -56px
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 4px;
+	background: #fff;
+	background: rgba(255,255,255,0.1);
+	border-radius: 1px
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 4px;
+	background: #fff;
+	background: rgba(255,255,255,0.75);
+	border-radius: 1px
+}
+
+.mCS-light-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 100%;
+	height: 4px;
+	margin: 6px 0
+}
+
+.mCS-light-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 100%;
+	height: 4px;
+	margin: 6px auto
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(255,255,255,0.85)
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-light-2>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(255,255,255,0.9)
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -32px 0
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -32px -20px
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonLeft {
+	background-position: -40px -40px
+}
+
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonRight {
+	background-position: -40px -56px
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 4px;
+	background: #000;
+	background: rgba(0,0,0,0.1);
+	border-radius: 1px
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 4px;
+	background: #000;
+	background: rgba(0,0,0,0.75);
+	border-radius: 1px
+}
+
+.mCS-dark-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 100%;
+	height: 4px;
+	margin: 6px 0
+}
+
+.mCS-dark-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 100%;
+	height: 4px;
+	margin: 6px auto
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.85)
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.9)
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -112px 0
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -112px -20px
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonLeft {
+	background-position: -120px -40px
+}
+
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonRight {
+	background-position: -120px -56px
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 4px;
+	background: #fff;
+	background: rgba(255,255,255,0.1);
+	border-radius: 2px
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 6px;
+	background: #fff;
+	background: rgba(255,255,255,0.75);
+	border-radius: 2px
+}
+
+.mCS-light-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 100%;
+	height: 4px;
+	margin: 6px 0
+}
+
+.mCS-light-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 100%;
+	height: 6px;
+	margin: 5px auto
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(255,255,255,0.85)
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(255,255,255,0.9)
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -16px 0
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -16px -20px
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonLeft {
+	background-position: -20px -40px
+}
+
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonRight {
+	background-position: -20px -56px
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 4px;
+	background: #000;
+	background: rgba(0,0,0,0.1);
+	border-radius: 2px
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 6px;
+	background: #000;
+	background: rgba(0,0,0,0.75);
+	border-radius: 2px
+}
+
+.mCS-dark-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 100%;
+	height: 4px;
+	margin: 6px 0
+}
+
+.mCS-dark-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 100%;
+	height: 6px;
+	margin: 5px auto
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.85)
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.9)
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -96px 0
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -96px -20px
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonLeft {
+	background-position: -100px -40px
+}
+
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonRight {
+	background-position: -100px -56px
+}
+
+.mCS-light-thin>.mCSB_scrollTools .mCSB_draggerRail {
+	background: #fff;
+	background: rgba(255,255,255,0.1)
+}
+
+.mCS-light-thin>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 2px
+}
+
+.mCS-light-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 100%
+}
+
+.mCS-light-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 100%;
+	height: 2px;
+	margin: 7px auto
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_draggerRail {
+	background: #000;
+	background: rgba(0,0,0,0.15)
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 2px;
+	background: #000;
+	background: rgba(0,0,0,0.75)
+}
+
+.mCS-dark-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail {
+	width: 100%
+}
+
+.mCS-dark-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 100%;
+	height: 2px;
+	margin: 7px auto
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.85)
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(0,0,0,0.9)
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonUp {
+	background-position: -80px 0
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonDown {
+	background-position: -80px -20px
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonLeft {
+	background-position: -80px -40px
+}
+
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonRight {
+	background-position: -80px -56px
+}
+
+.content_1>.mCustomScrollBox>.mCSB_scrollTools {
+	height: 96%;
+	top: 2%
+}
+
+.content_2 .mCSB_scrollTools .mCSB_draggerRail {
+	width: 6px;
+	box-shadow: 1px 1px 1px rgba(255,255,255,0.1)
+}
+
+.content_2 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background: rgba(255,255,255,0.4);
+	filter: "alpha(opacity=40)";
+	-ms-filter: "alpha(opacity=40)"
+}
+
+.content_2 .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(255,255,255,0.5);
+	filter: "alpha(opacity=50)";
+	-ms-filter: "alpha(opacity=50)"
+}
+
+.content_2 .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.content_2 .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(255,255,255,0.6);
+	filter: "alpha(opacity=60)";
+	-ms-filter: "alpha(opacity=60)"
+}
+
+.content_3>.mCustomScrollBox>.mCSB_scrollTools {
+	height: 94%;
+	top: 3%
+}
+
+.content_3 .mCSB_scrollTools .mCSB_draggerRail {
+	width: 0;
+	border-right: 1px dashed #09C
+}
+
+.content_3 .mCSB_scrollTools .mCSB_dragger {
+	height: 11px
+}
+
+.content_3 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 11px;
+	border-radius: 11px;
+	background: #09C
+}
+
+.content_4>.mCustomScrollBox>.mCSB_scrollTools {
+	height: 94%;
+	top: 3%
+}
+
+.content_4 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	width: 8px;
+	border-radius: 2px;
+	background: #d0b9a0;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.5)
+}
+
+.content_4 .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar,.content_4 .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: #dfcdb9
+}
+
+.content_4 .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.content_4 .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	box-shadow: 0 0 3px rgba(0,0,0,0.5)
+}
+
+.content_5>.mCustomScrollBox>.mCSB_scrollTools {
+	width: 98%;
+	margin: 0 1%
+}
+
+.content_6>.mCustomScrollBox>.mCSB_scrollTools {
+	width: 88%;
+	margin: 0 6%
+}
+
+.content_8 .mCSB_scrollTools .mCSB_draggerRail {
+	width: 0px;
+	border-left: 1px solid rgba(0,0,0,0.8);
+	border-right: 1px solid rgba(255,255,255,0.2)
+}
+#BMapLib_sendToPhone0{
+	display: none!important;
+}
